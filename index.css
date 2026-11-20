@@ -29,11 +29,11 @@ body {
 }
 
 .quiz-option:hover {
-  @apply border-teal-200 bg-teal-50/30;
+  @apply border-purple-200 bg-purple-50/30;
 }
 
 .quiz-option.selected {
-  @apply border-teal-500 bg-teal-50 ring-1 ring-teal-500;
+  @apply border-purple-500 bg-purple-50 ring-1 ring-purple-500;
 }
 
 /* Loading animation */
@@ -89,7 +89,7 @@ input:focus, button:focus {
 }
 
 input:focus {
-  @apply ring-2 ring-teal-500 border-transparent;
+  @apply ring-2 ring-purple-500 border-transparent;
 }
 
 /* Toast notifications */
